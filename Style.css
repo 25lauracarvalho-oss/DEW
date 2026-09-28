@@ -1,0 +1,12 @@
+.banner {
+  background-image: url('./images/banner.avif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+}
