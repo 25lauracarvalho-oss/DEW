@@ -111,3 +111,64 @@ main {
   padding: 20px;
   background-color: #607D8B;
 }
+
+/*all 3 */
+a {
+  transition: opacity 0.8s ease;
+}
+
+a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+
+/*all 4*/
+img {
+ display: block;
+ margin: auto;
+}
+
+img:hover{
+  transform: scale(1.2);
+}
+
+h2,
+.products-list figcaption {
+  z-index: 2;
+  position: relative;
+}
+
+#products-title {
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotateX(0deg);
+    }
+   50% {
+      transform: rotateY(180deg);
+   } 
+    100% {
+      transform: rotateZ(360deg);
+    }
+}
+   
+/* ct-TVs 7 */
+.intro h1{
+  animation: move 3s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-0, 0);
+  }
+  50% {
+    transform: translateX(20%, 20%);
+  }
+  100% {
+    transform: translateX(0, 0);
+  }
+}
+ 
