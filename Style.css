@@ -127,6 +127,7 @@ a:hover {
 img {
  display: block;
  margin: auto;
+ height: 300px;
 }
 
 img:hover{
